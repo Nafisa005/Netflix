@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url('https://platinumlist.net/guide/wp-content/uploads/2023/03/8359_img_worlds_of_adventure-big1613913137.jpg-1024x683.webp') no-repeat center;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 30px;
+}
+
+.headerl {
+    display: flex;
+    gap: 15px;
+    color: red;
+    font-size: large;
+
+}
+
+.headerr {
+    display: flex;
+    gap: 15px;
+    margin-right: 25px;
+
+}
+
+.language {
+
+    width: 100px;
+    background: black;
+    color: white;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 600;
+
+}
+
+.headerr button {
+    background: red;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    width: 70px;
+    color: white;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.headerr button:hover {
+    background-color: rgb(223, 22, 39);
+}
+
+.main {
+    position: absolute;
+    left: 20%;
+    top: 15%;
+    font-size: large;
+    text-align: center;
+    width: 60%;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.container {
+    top: 300px;
+    left: 21%;
+    width: 90%;
+    max-width: 20em;
+    height: 2.5em;
+    position: relative;
+}
+
+.form-input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #121212;
+    border: 2px solid #ffffff;
+    border-radius: 0.5em;
+    outline: none;
+    padding-left: 1em;
+}
+
+label {
+    position: absolute;
+    background: #121212;
+    color: #ffffff;
+    font-family: sans-serif;
+    left: 1em;
+    top: 0.75em;
+    cursor: text;
+    transition: top 350ms ease-in, font-size 350ms ease-in;
+}
+
+.form-input:hover {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.form-input:focus {
+    border: 2px solid #8f9999;
+}
+
+input[type="text"]:focus~label,
+.form-input:not(:placeholder-shown) .form-input:not(:focus)~label {
+    top: -0.5em;
+    font-size: 0.75rem;
+    padding: 0 0.125em;
+}
+
+.end button {
+    margin-top: 260px;
+    margin-left: 55%;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #e50914;
+    color: #ffffff;
+    border-radius: 0 4px 4px 0;
+
+}
