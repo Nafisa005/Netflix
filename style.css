@@ -145,15 +145,12 @@ input[type="text"]:focus~label,
         background-size: cover;
     }
     .header{
-        
         flex-direction: column;
-        text-align: center;
         margin: 10px;
     }
     
         .headerl {
             font-size: medium;
-            
             margin-left: 0;
         }
     
