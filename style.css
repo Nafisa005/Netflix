@@ -154,12 +154,12 @@ input[type="text"]:focus~label,
         .headerl {
             font-size: medium;
             margin-bottom: 10px;
-            margin-left: auto;
+            margin-left: 0;
         }
     
         .headerr {
             margin-right: 0;
-            margin-top: 10px;
+            margin-top: 0;
         }
     
         .language {
@@ -193,7 +193,7 @@ input[type="text"]:focus~label,
         }
     
         .end button {
-            margin-top: 150px;
+            margin-top: 200px;
             margin-left: 20%;
             padding: 8px 15px;
             font-size: 14px;
