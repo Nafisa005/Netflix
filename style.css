@@ -145,7 +145,7 @@ input[type="text"]:focus~label,
         background-size: cover;
     }
     .header{
-        display: flex;
+        
         flex-direction: column;
         text-align: center;
         margin: 10px;
