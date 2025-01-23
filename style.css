@@ -147,13 +147,13 @@ input[type="text"]:focus~label,
     .header{
         
         flex-direction: column;
-        
+        text-align: center;
         margin: 10px;
     }
     
         .headerl {
             font-size: medium;
-            margin-bottom: 10px;
+            
             margin-left: 0;
         }
     
